@@ -1,5 +1,3 @@
-const email = "tgilroy@devpipeline.com";
-const password = "One2threesf@1";
 const authSendData = {
   email: email,
   password: password,
