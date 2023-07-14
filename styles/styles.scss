@@ -1,0 +1,95 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+
+body {
+  @include flexDefaults(row);
+  height: 100vh;
+  width: 100vw;
+  color: black;
+
+  #displayDiv {
+    @include flexDefaults(row);
+    height: 100%;
+    width: 100%;
+    background-color: $backgroundColor;
+
+    #scrollBarDiv {
+      @include flexDefaults(column);
+      height: 100%;
+      width: 15%;
+      justify-content: flex-start;
+      background-color: $altBackgroundColor;
+
+      #scrollBarHeaderDiv {
+        @include flexDefaults(row);
+        height: 75px;
+        width: 100%;
+        border-bottom: 2px solid $backgroundColor;
+
+        #scrollBarHeader {
+          @include flexDefaults(row);
+          font-size: 20px;
+        }
+      }
+
+      #scrollBarBodyDiv {
+        @include flexDefaults(column);
+        height: 100%;
+        width: 100%;
+        padding-top: 225px;
+        padding-bottom: 5px;
+        overflow: auto;
+
+        .nameDivs {
+          @include flexDefaults(column);
+          width: 100%;
+          border-bottom: 2px solid $backgroundColor;
+
+          .buttonDivs {
+            @include flexDefaults(row);
+            margin-bottom: 10px;
+
+            .subtractButtons {
+              @include flexDefaults(row);
+              height: 25px;
+              width: 25px;
+              border-radius: 15px;
+              background-color: #f87171;
+            }
+
+            .addButtons {
+              @include flexDefaults(row);
+              height: 25px;
+              width: 25px;
+              border-radius: 15px;
+              background-color: #4ade80;
+            }
+          }
+        }
+      }
+    }
+
+    #randomResultDiv {
+      @include flexDefaults(column);
+      height: 95%;
+      width: 85%;
+      margin-bottom: 5%;
+
+      #randomResultP {
+        @include flexDefaults(row);
+        margin-bottom: 25px;
+        font-size: 50px;
+      }
+
+      #randomResultShuffle {
+        @include flexDefaults(row);
+        font-size: 30px;
+        padding: 10px 20px;
+        border-radius: 15px;
+        color: black;
+        border-color: $backgroundColor;
+        background-color: $altBackgroundColor;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@mixin flexDefaults($flexDirection) {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: $flexDirection;
+  justify-content: center;
+  align-items: center;
+}

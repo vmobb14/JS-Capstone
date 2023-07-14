@@ -1,0 +1,145 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: black;
+}
+body #displayDiv {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #06b6d4;
+}
+body #displayDiv #scrollBarDiv {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 15%;
+  justify-content: flex-start;
+  background-color: #d97706;
+}
+body #displayDiv #scrollBarDiv #scrollBarHeaderDiv {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 100%;
+  border-bottom: 2px solid #06b6d4;
+}
+body #displayDiv #scrollBarDiv #scrollBarHeaderDiv #scrollBarHeader {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+body #displayDiv #scrollBarDiv #scrollBarBodyDiv {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 225px;
+  padding-bottom: 5px;
+  overflow: auto;
+}
+body #displayDiv #scrollBarDiv #scrollBarBodyDiv .nameDivs {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid #06b6d4;
+}
+body #displayDiv #scrollBarDiv #scrollBarBodyDiv .nameDivs .buttonDivs {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+body #displayDiv #scrollBarDiv #scrollBarBodyDiv .nameDivs .buttonDivs .subtractButtons {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 15px;
+  background-color: #f87171;
+}
+body #displayDiv #scrollBarDiv #scrollBarBodyDiv .nameDivs .buttonDivs .addButtons {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 15px;
+  background-color: #4ade80;
+}
+body #displayDiv #randomResultDiv {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  width: 85%;
+  margin-bottom: 5%;
+}
+body #displayDiv #randomResultDiv #randomResultP {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 50px;
+}
+body #displayDiv #randomResultDiv #randomResultShuffle {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: black;
+  border-color: #06b6d4;
+  background-color: #d97706;
+}/*# sourceMappingURL=styles.css.map */
